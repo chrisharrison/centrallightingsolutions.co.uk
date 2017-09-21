@@ -1,0 +1,15 @@
+language: php
+php:
+  - '7.1'
+script:
+  - php build.php
+  - cp -r resources/* build
+branches:
+  only: master
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: build
+  on:
+    branch: master
