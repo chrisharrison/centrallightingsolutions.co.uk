@@ -1,0 +1,144 @@
+a {
+    color: #4c8e1b;
+}
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+#top {
+    position: relative;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#logo {
+    float: left;
+}
+#call_now {
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    color: #508f17;
+    text-transform: uppercase;
+    text-align: right;
+}
+@media (max-width: 450px) {
+    #call_now {
+        position: static;
+        float: left;
+        clear: left;
+        text-align: left;
+        margin-top: 2em;
+    }
+}
+#call_now #call_number {
+    display: inline-block;
+    font-size: 25px;
+    background: url('../img/call_land.png') left center no-repeat;
+    padding-left: 35px;
+    margin-top: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#main {
+    min-height: 900px;
+    color: #303030;
+    background: #081d00 url('../img/bg.jpg') top center no-repeat;
+    font-size: 0.9em;
+    padding-top: 50px;
+}
+
+#body_index #main {
+    padding-top: 0;
+}
+
+#main_container {
+    -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow:    0px 10px 20px rgba(0, 0, 0, 0.5);
+    box-shadow:         0px 10px 20px rgba(0, 0, 0, 0.5);
+    margin-bottom: 2em;
+}
+
+#main h1, #main h2, .modal-header h3, .modal-body h2 {
+    color: #4c8e1b;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.modal-body h2 {
+    font-size: 18px;
+}
+#main h2 {
+    font-size: 20px;
+}
+
+#main_text {
+    background: white;
+    padding: 20px;
+}
+
+.btn_central {
+    text-shadow: none;
+    color: #83b326;
+    text-transform: uppercase;
+    border: none;
+    background: #437a1a;
+    font-size: 0.9em;
+}
+.btn_central:hover {
+    color: #83b326;
+    background: #244919;
+}
+
+blockquote {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    border-left: 20px solid #b6cca9;
+    padding-left: 5px;
+    font-size: 1.2em;
+}
+blockquote .attribute {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.85em;
+    color: #969696;
+    margin-top: 1em;
+}
+blockquote:before,
+blockquote:after {
+  content: none;
+}
+
+#slogan {
+    margin-bottom: 0.5em;
+}
+
+#slogan h1 {
+    color: #d7e8a8;
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+    text-transform: none;
+}
+
+#copyright {
+    color: #53694b;
+    text-align: center;
+    padding-bottom: 3em;
+}
+
+#logos {
+    text-align: center;
+    margin-bottom: 2.5em;
+}
+
+.call_small {
+    padding-left: 20px;
+    background: url('../img/call_land_small.png') left center no-repeat;
+}
+.call_small.mobile {
+    background: url('../img/call_mobile_small.png') left center no-repeat;
+}
+
+h2 {
+    
+}
